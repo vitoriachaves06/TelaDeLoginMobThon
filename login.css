@@ -1,16 +1,48 @@
 body{
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    text-align: left;
+   background: url(imagens/Paulistaimg.jpg) ;
+   margin: 100px;
+   display: flex;
+   justify-content: center;
+   text-align: left;
+
 }
 
 
-.User{
-    width: 350px;
-    height: 300px;
-    border: 2px solid #000;
-    border-radius: 80px 0px 80px 0px;
+
+
+.Tela{
+    background-color: white;
     color: black;
-    background-color: rgba(red, green, blue, alpha);
-  }
+     width: 400px;
+     height: 350px;
+     margin: 250px 0 0 480;
+     padding-top: 50px;
+     text-align: center;
+     border-radius: 20px;
+
+}
+
+.Tela input{
+    display: block;
+    margin: 10px 15px 10px 15px;
+    width: 85%;
+    padding: 5px;
+    border-radius: 20px;
+    color: black;
+
+}
+.Tela label{
+    display: block;
+    padding: 20px 20px 10px 15px;
+    font-size: 20px;
+    color: black;
+}
+.Tela button{
+    display: block;
+    margin: 30px 0 0 190px;
+    font-family: 20px;
+    margin-top: 40px;
+    padding: 30px;
+    border: 90px;
+}
+
